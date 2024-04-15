@@ -1,0 +1,38 @@
+[
+    {
+      "name": "Rotor Blade Assembly",
+      "category": "Helicopter Parts",
+      "price": 1500,
+      "image": "./utils/main-qimg-ccb86668c3fe1566321ec2cce6ec620e.jpg"
+    },
+    {
+      "name": "Turbine Engine",
+      "category": "Aircraft Parts",
+      "price": 5000,
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "name": "Avionics System",
+      "category": "Aircraft Parts",
+      "price": 3000,
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "name": "Propeller",
+      "category": "Aircraft Parts",
+      "price": 2000,
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "name": "Landing Gear Strut",
+      "category": "Aircraft Parts",
+      "price": 1000,
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "name": "Helicopter Tail Rotor",
+      "category": "Helicopter Parts",
+      "price": 1200,
+      "image": "https://via.placeholder.com/150"
+    }
+]

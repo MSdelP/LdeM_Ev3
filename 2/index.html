@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tienda online</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.4.0/animate.min.css"
+    />
+    <link rel="stylesheet" href="./utils/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@13.6.5/dist/sweetalert2.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Tienda online</h1>
+
+      <section class="filtros">
+        <label for="precioMinimo">Precio mínimo:</label>
+        <input type="number" id="precioMinimo" />
+
+        <label for="categoria">Categoría:</label>
+        <select id="categoria">
+          <option value="">Todas</option>
+        </select>
+
+        <label for="marca">Marca:</label>
+        <select id="marca">
+          <option value="">Todas</option>
+        </select>
+
+        <button id="btnFiltrar">Filtrar</button>
+      </section>
+    </header>
+
+    <main>
+      <section class="resultados">
+        <h2>Productos</h2>
+        <div class="productos-container"></div>
+      </section>
+
+      <section class="carrito">
+        <h2>Carrito</h2>
+        <ul id="listaCarrito"></ul>
+        <button id="btnVaciarCarrito">Vaciar carrito</button>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

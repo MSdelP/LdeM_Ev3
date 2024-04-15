@@ -1,0 +1,134 @@
+/* Estilos generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Estilos del encabezado */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  /* Estilos de los filtros */
+  .filtros {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .filtros label {
+    font-weight: bold;
+    margin-right: 10px;
+    color: #555;
+  }
+  
+  .filtros input[type="number"],
+  .filtros select {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+  }
+  
+  .filtros button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .filtros button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Estilos de los resultados */
+  .resultados {
+    margin-top: 40px;
+  }
+  
+  .resultados h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .productos-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .producto {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    transition: box-shadow 0.3s;
+  }
+  
+  .producto:hover {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .producto h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .producto p {
+    margin-bottom: 5px;
+    color: #666;
+  }
+  
+  /* Estilos del carrito */
+  .carrito {
+    margin-top: 40px;
+  }
+  
+  .carrito h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  #listaCarrito {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #listaCarrito li {
+    margin-bottom: 10px;
+  }
+  
+  #btnVaciarCarrito {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff5722;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #btnVaciarCarrito:hover {
+    background-color: #e64a19;
+  }
+  
